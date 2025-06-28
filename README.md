@@ -1,6 +1,6 @@
 # hide-comments
 
-Hide comments in Github PR
+Hide comments in Github PR 🙈
 
 https://github.com/user-attachments/assets/d2348f2e-2315-4822-9eb6-7e1165e096ac
 
@@ -15,6 +15,7 @@ Download this project and load up the code
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/e1db5fde-dc6c-4edc-a0f9-d309458f2d80" />
 
 # Other projects
+
 [PR Text Generator](https://github.com/vildeHagt/pr-text-generator)
 <br>
 [Viewed File Opener](https://github.com/vildeHagt/viewed-file-opener)

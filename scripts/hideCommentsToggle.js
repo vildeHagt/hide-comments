@@ -1,10 +1,13 @@
 function hideCommentsToggle() {
-  const viewedFile = document.getElementsByClassName(
-    "mr-1 js-reviewed-checkbox"
+  const viewedFiles = document.getElementsByClassName(
+    "js-inline-comments-container"
   );
-  for (let i = 0; i < viewedFile.length; i++) {
-    if (viewedFile[i].checked) {
-      viewedFile[i].click();
+  for (let i = 0; i < viewedFiles.length; i++) {
+    const el = viewedFiles[i];
+    if (el.style.display === "none") {
+      el.style.display = "";
+    } else {
+      el.style.display = "none";
     }
   }
 }

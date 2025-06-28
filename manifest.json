@@ -1,5 +1,5 @@
 {
-  "name": "hide-comments",
+  "name": "Hide Comments",
   "description": "Hide comments in GitHub PRs",
   "version": "1.0",
   "manifest_version": 3,

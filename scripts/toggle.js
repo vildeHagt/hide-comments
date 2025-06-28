@@ -1,16 +1,27 @@
 function injectToggle() {
   const buttonDiv = document.getElementsByClassName(
-    "flex-grow-0 flex-shrink-0 pr-review-tools"
-  )[0];
-  if (buttonDiv && !document.querySelector(".open-viewed-files-btn")) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "open-viewed-files-btn";
-    button.textContent = "Open viewed files";
-    button.addEventListener("click", () => {
-      openViewedFiles();
+    "d-flex flex-items-center flex-wrap"
+  )[2];
+  if (buttonDiv && !document.querySelector(".github-comments-toggle")) {
+    const label = document.createElement("label");
+    label.className = "github-comments-toggle";
+    label.style.display = "flex";
+    label.style.alignItems = "center";
+    label.style.cursor = "pointer";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.style.marginRight = "6px";
+    checkbox.addEventListener("change", () => {
+      hideCommentsToggle();
     });
-    buttonDiv.prepend(button);
+
+    const span = document.createElement("span");
+    span.textContent = "Hide comments";
+
+    label.appendChild(checkbox);
+    label.appendChild(span);
+    buttonDiv.appendChild(label);
   }
 }
 

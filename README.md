@@ -16,4 +16,5 @@ Download this project and load up the code
 
 # Other projects
 [PR Text Generator](https://github.com/vildeHagt/pr-text-generator)
+<br>
 [Viewed File Opener](https://github.com/vildeHagt/viewed-file-opener)

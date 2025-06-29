@@ -1,6 +1,6 @@
 {
-  "name": "Hide Comments",
-  "description": "Hide comments in GitHub PRs",
+  "name": "Hide Comments in GitHub PRs",
+  "description": "Hide pull request comments on GitHub to stay focused while reviewing code. Clean up the noise and focus on what matters.",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
